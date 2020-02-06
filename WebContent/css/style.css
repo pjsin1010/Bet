@@ -1,0 +1,95 @@
+﻿@charset	"utf-8";
+
+BODY
+	{
+	color: #2a2a2a;
+	font-family: "돋움", Seoul, "한강체";
+	font-size: 12px;
+	line-height: 160%;
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-shadow-color: cccccc;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: cccccc;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-track-color: #F3F3F3;
+	scrollbar-arrow-color: #999999;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: repeat;
+	background-image: url(../images/back.jpg);
+}
+
+
+
+
+
+TD,input,DIV,form,TEXTAREA,center,pre     
+	{
+	color: #2a2a2a;
+	font-family:"돋움", Seoul, "한강체";  
+	font-size: 12px; 
+	text-decoration:none; 
+	line-height: 160%;
+	} 
+
+
+
+/*이미지테두리없애기 */
+IMG {border: none;}
+a, img, input {selector-dummy: expression(this.hideFocus=true);}
+
+/*폼문에서 여백없애기 */
+form {padding:0px; margin:0px}
+
+/*링크관련 */
+a:link {color:#2a2a2a; text-decoration:none;}
+a:visited {color:#2a2a2a; text-decoration:none;}
+a:active {color:#2a2a2a; text-decoration:none;}
+a:hover {color:#2a2a2a;text-decoration:underline;}
+
+
+.white_link a:link {color:#fff; text-decoration:none;}
+.white_link a:visited {color:#fff; text-decoration:none;}
+.white_link a:active {color:#fff; text-decoration:none;}
+.white_link a:hover {color:#fff;text-decoration:underline;}
+
+
+
+
+
+/* 폰트색관련*/
+.color_write {color: #fff;}
+.color_a {color: #6200ff; font-size: 18px; font-weight:bold; }
+.color_writeS {color: #fff;font-size: 11px;}
+.color_writeB {color: #fff;font-weight: bold;}
+.color_blue {color: #55c1da;}
+.color_blueS {color: #0055f0;font-size: 11px;}
+.color_blueB {color: #0055f0;font-weight: bold;}
+.color_yellow {color: #ffde00; font-size: 12px; font-weight:bold; }
+.color_blackSB {font-size: 11px;color: #343233;font-weight: bold; }
+.color_blackS {font-size: 11px;color: #000;}
+.color_blackB {color: #000;font-weight: bold;}
+.color_greyS {font-size: 11px;color: #616161;}
+.color_greyB {color: #555555;font-weight: bold;}
+.color_redB {color: #f90000;font-weight: bold;}
+.color_redSB {color: #f90000;font-weight: bold;font-size: 11px;}
+.color_red {color: #ff0000;}
+.color_redS {color: #ff0000;font-size: 11px;}
+.color_orangeB {color: #ff7800;font-weight: bold}
+
+.color_brownB {color: #522100;font-weight: bold; }
+.color_purpleB {color: #84004b;font-weight: bold;}
+.color_yellowB {color: #ffa800;font-weight: bold;}
+.color_greenB {color: #00ff8a;font-weight: bold;}
+
+.sub_back {	background-color: #e6e6e8;		background-repeat: no-repeat;	background-position: top;} /*테두리 */
+.bar_back {	background-repeat: no-repeat;	background-position: top; height:42px; padding:5px 0 0 0;} /* 로고 크기*/
+.bar_league {background-repeat: no-repeat;	 background-position: top;   height:29px; padding:0 0 0 8px;} /* 로고 크기*/
+
+
+.batt_date {color: #636363;font-size: 11px;}
+.batt_ing {color: #ff7800;font-size: 11px;font-weight: bold;}
+.batt_stop {color:#CC0000;font-size: 11px;font-weight: bold;}
+.betting-list .disable {background-color:#f6f6f6; border-collapse:separate; border-width: 1px; border-style: solid;  border-color: #dadada #b7b7b7 #aaaaaa #d5d5d5;}

@@ -1,0 +1,45 @@
+﻿
+
+TD { font-size: 11px; color:#cccccc; line-height: 140%; FONT-FAMILY:  "µ¸¿ò", "µ¸¿òÃ¼", "±¼¸²", "±¼¸²Ã¼"}
+
+
+
+.login { Letter-spacing:0px;
+            Color:#bf8946; 
+            Font-size:11px;
+            font-weight:bold;
+          }
+
+
+@charset	"utf-8";
+
+BODY
+	{
+	margin:0;
+      background-color: #000000;
+
+
+	color: #2a2a2a;
+	font-family: "돋움", Seoul, "한강체";
+	font-size: 12px;
+	line-height: 160%;
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-shadow-color: cccccc;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: cccccc;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-track-color: #F3F3F3;
+	scrollbar-arrow-color: #999999;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+	background-image: url(../images/2.jpg);
+	background-attachment: cover;
+	background-position: center top;
+	background-size: 100%
+}
+MARQUEE { width:360;
+}
+
